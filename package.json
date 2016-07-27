@@ -17,8 +17,10 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "async": "^2.0.1",
     "azure-mgmt-storage": "^0.9.16",
     "bassmaster": "1.5.1",
+    "bluebird": "^3.4.1",
     "cats": "0.0.2",
     "falcor-hapi": "netflix/falcor-hapi",
     "falcor-router-demo": "1.0.3",
@@ -28,8 +30,13 @@
     "hapi": "^10.5.0",
     "hawk": "^5.1.0",
     "inert": "^3.2.0",
+    "lodash": "^4.14.0",
+    "moment": "^2.14.1",
     "npm": "^3.10.5",
+    "q": "^1.4.1",
     "red": "0.0.0",
-    "snyk-demo-child": "0.0.1"
+    "semver": "^5.3.0",
+    "snyk-demo-child": "0.0.1",
+    "yargs": "^4.8.1"
   }
 }
