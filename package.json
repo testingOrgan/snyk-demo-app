@@ -17,12 +17,13 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "azure-mgmt-storage": "^0.9.16",
+    "bassmaster": "1.5.1",
     "falcor-hapi": "netflix/falcor-hapi",
     "falcor-router-demo": "1.0.3",
     "hapi": "^10.5.0",
+    "hawk": "^5.1.0",
     "inert": "^3.2.0",
-    "bassmaster": "1.5.1",
-    "snyk-demo-child": "0.0.1",
-    "azure-mgmt-storage": "^0.9.16"
+    "snyk-demo-child": "0.0.1"
   }
 }
