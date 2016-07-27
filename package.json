@@ -17,6 +17,19 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "gmail-js": "^0.5.0"
+    "azure-mgmt-storage": "^0.9.16",
+    "bassmaster": "1.5.1",
+    "cats": "0.0.2",
+    "falcor-hapi": "netflix/falcor-hapi",
+    "falcor-router-demo": "1.0.3",
+    "gmail-js": "^0.5.0",
+    "grunt": "^1.0.1",
+    "gulp": "^3.9.1",
+    "hapi": "^10.5.0",
+    "hawk": "^5.1.0",
+    "inert": "^3.2.0",
+    "npm": "^3.10.5",
+    "red": "0.0.0",
+    "snyk-demo-child": "0.0.1"
   }
 }
