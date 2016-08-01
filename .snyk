@@ -1,0 +1,30 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:handlebars:20151207':
+    - snyk-demo-child > handlebars:
+        patched: '2016-08-01T10:01:55.221Z'
+  'npm:hawk:20160119':
+    - azure-mgmt-storage > azure-common > request > hawk:
+        patched: '2016-08-01T10:01:55.221Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-08-01T10:01:55.221Z'
+    - gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-08-01T10:01:55.221Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-08-01T10:01:55.221Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-08-01T10:01:55.221Z'
+  'npm:request:20160119':
+    - azure-mgmt-storage > azure-common > request:
+        patched: '2016-08-01T10:01:55.221Z'
+  'npm:tough-cookie:20160722':
+    - npm > request > tough-cookie:
+        patched: '2016-08-01T10:01:55.221Z'
+  'npm:uglify-js:20151024':
+    - snyk-demo-child > handlebars > uglify-js:
+        patched: '2016-08-01T10:01:55.221Z'
+  'npm:ws:20160104':
+    - red > ws:
+        patched: '2016-08-01T10:01:55.221Z'
