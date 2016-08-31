@@ -41,6 +41,7 @@
     "ws": "1.0.0",
     "yargs": "^4.8.1",
     "marked": "0.3.5",
+    "hawk": "1.1.0"
   },
   "devDependencies": {
     "snyk": "^1.14.4-alpha.1"
