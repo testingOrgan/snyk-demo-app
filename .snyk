@@ -1,0 +1,42 @@
+version: v1.5.0
+ignore:
+  'npm:gmail-js:20160721':
+    - gmail-js:
+        reason: None given
+        expires: '2016-09-30T15:11:43.399Z'
+  'npm:validator:20130705':
+    - azure-mgmt-storage > azure-common > validator:
+        reason: None given
+        expires: '2016-09-30T15:11:43.400Z'
+  'npm:ws:20160624':
+    - ws:
+        reason: None given
+        expires: '2016-09-30T15:11:43.400Z'
+    - red > ws:
+        reason: None given
+        expires: '2016-09-30T15:11:43.400Z'
+patch:
+  'npm:handlebars:20151207':
+    - snyk-demo-child > handlebars:
+        patched: '2016-08-31T15:11:43.580Z'
+  'npm:hawk:20160119':
+    - azure-mgmt-storage > azure-common > request > hawk:
+        patched: '2016-08-31T15:11:43.580Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-08-31T15:11:43.580Z'
+    - gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-08-31T15:11:43.580Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-08-31T15:11:43.580Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-08-31T15:11:43.580Z'
+  'npm:request:20160119':
+    - azure-mgmt-storage > azure-common > request:
+        patched: '2016-08-31T15:11:43.580Z'
+  'npm:uglify-js:20151024':
+    - snyk-demo-child > handlebars > uglify-js:
+        patched: '2016-08-31T15:11:43.580Z'
+  'npm:ws:20160104':
+    - red > ws:
+        patched: '2016-08-31T15:11:43.580Z'
