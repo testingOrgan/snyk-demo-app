@@ -20,10 +20,6 @@ ignore:
     - falcor-router-demo > pouchdb > request > qs:
         reason: I like vulns
         expires: '2016-11-18T15:23:40.789Z'
-  'npm:qs:20140806-1':
-    - falcor-router-demo > pouchdb > request > qs:
-        reason: I like vulns
-        expires: '2016-11-18T15:23:40.789Z'
   'npm:hapi:20151228':
     - hapi:
         reason: >-
