@@ -1,0 +1,183 @@
+version: v1.5.2
+ignore:
+  'npm:request:20160119':
+    - falcor-router-demo > pouchdb > request:
+        reason: I like vulns
+        expires: '2016-11-18T15:23:40.787Z'
+  'npm:tough-cookie:20160722':
+    - falcor-router-demo > pouchdb > request > tough-cookie:
+        reason: I like vulns
+        expires: '2016-11-18T15:23:40.788Z'
+  'npm:semver:20150403':
+    - falcor-router-demo > pouchdb > levelup > semver:
+        reason: I like vulns
+        expires: '2016-11-18T15:23:40.788Z'
+  'npm:hawk:20160119':
+    - falcor-router-demo > pouchdb > request > hawk:
+        reason: I like vulns
+        expires: '2016-11-18T15:23:40.789Z'
+  'npm:qs:20140806':
+    - falcor-router-demo > pouchdb > request > qs:
+        reason: I like vulns
+        expires: '2016-11-18T15:23:40.789Z'
+  'npm:qs:20140806-1':
+    - falcor-router-demo > pouchdb > request > qs:
+        reason: I like vulns
+        expires: '2016-11-18T15:23:40.789Z'
+  'npm:hapi:20151228':
+    - hapi:
+        reason: >-
+          fkjsdf jksdfj kjdhflkdshfjdsha ljfhladjkf hdsjkfhjksh jfhdjkfhdjkf
+          hdjashflks hfjkdhsfjhalskjfhasdjfhlas fkjasdhfkjhdsafkhdkjfhk hkds
+          hkjhk jdshjksdhvhsdhvkxhvjshfkdhfkds hdfjk lafhdjkshfshafk lahfs
+        expires: '2016-11-18T15:23:40.789Z'
+  'npm:hapi:20151223':
+    - hapi:
+        reason: >-
+          fkjsdf jksdfj kjdhflkdshfjdsha ljfhladjkf hdsjkfhjksh jfhdjkfhdjkf
+          hdjashflks hfjkdhsfjhalskjfhasdjfhlas fkjasdhfkjhdsafkhdkjfhk hkds
+          hkjhk jdshjksdhvhsdhvkxhvjshfkdhfkds hdfjk lafhdjkshfshafk lahfs
+        expires: '2016-11-18T15:23:40.789Z'
+  'npm:hapi:20151020':
+    - hapi:
+        reason: >-
+          fkjsdf jksdfj kjdhflkdshfjdsha ljfhladjkf hdsjkfhjksh jfhdjkfhdjkf
+          hdjashflks hfjkdhsfjhalskjfhasdjfhlas fkjasdhfkjhdsafkhdkjfhk hkds
+          hkjhk jdshjksdhvhsdhvkxhvjshfkdhfkds hdfjk lafhdjkshfshafk lahfs
+        expires: '2016-11-18T15:23:40.789Z'
+  'npm:ws:20160104':
+    - selenium-webdriver > ws:
+        reason: None given
+        expires: '2016-11-18T15:23:40.791Z'
+    - ws:
+        reason: None given
+        expires: '2016-11-18T15:23:40.791Z'
+  'npm:ws:20160624':
+    - selenium-webdriver > ws:
+        reason: None given
+        expires: '2016-11-18T15:23:40.791Z'
+    - ws:
+        reason: None given
+        expires: '2016-11-18T15:23:40.791Z'
+    - red > ws:
+        reason: None given
+        expires: '2016-11-18T15:23:40.801Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.792Z'
+    - gulp > vinyl-fs > glob-stream > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.793Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.794Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.796Z'
+    - npm > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.796Z'
+    - npm > read-package-json > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.796Z'
+    - npm > rimraf > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.797Z'
+    - npm > fstream > rimraf > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.797Z'
+    - npm > fs-vacuum > rimraf > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.797Z'
+    - npm > init-package-json > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.797Z'
+    - npm > init-package-json > read-package-json > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.797Z'
+    - npm > read-installed > read-package-json > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.798Z'
+    - npm > read-package-tree > read-package-json > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.798Z'
+    - npm > npm-registry-client > rimraf > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.798Z'
+    - npm > tar > fstream > rimraf > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.798Z'
+    - npm > fstream-npm > fstream-ignore > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.798Z'
+    - npm > fstream-npm > fstream-ignore > fstream > rimraf > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.799Z'
+    - npm > node-gyp > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.799Z'
+    - npm > node-gyp > rimraf > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.799Z'
+    - npm > node-gyp > fstream > rimraf > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.799Z'
+    - npm > node-gyp > tar > fstream > rimraf > glob > minimatch:
+        reason: Hi mum
+        expires: '2016-11-18T15:23:40.799Z'
+  'npm:uglify-js:20151024':
+    - snyk-demo-child > handlebars > uglify-js:
+        reason: yo
+        expires: '2016-11-18T15:23:40.799Z'
+  'npm:uglify-js:20150824':
+    - snyk-demo-child > handlebars > uglify-js:
+        reason: yo
+        expires: '2016-11-18T15:23:40.800Z'
+  'npm:bl:20160119':
+    - falcor-router-demo > pouchdb > levelup > bl:
+        reason: None given
+        expires: '2016-11-18T15:23:40.800Z'
+  'npm:gmail-js:20160721':
+    - gmail-js:
+        reason: None given
+        expires: '2016-11-18T15:23:40.800Z'
+  'npm:validator:20130705':
+    - azure-mgmt-storage > azure-common > validator:
+        reason: None given
+        expires: '2016-11-18T15:23:40.800Z'
+patch:
+  'npm:bassmaster:20140927':
+    - bassmaster:
+        patched: '2016-10-19T15:22:35.710Z'
+  'npm:call:20160705':
+    - hapi > call:
+        patched: '2016-10-19T15:22:35.710Z'
+  'npm:handlebars:20151207':
+    - snyk-demo-child > handlebars:
+        patched: '2016-10-19T15:22:35.710Z'
+  'npm:hawk:20160119':
+    - azure-mgmt-storage > azure-common > request > hawk:
+        patched: '2016-10-19T15:22:35.710Z'
+  'npm:moment:20160126':
+    - hapi > statehood > joi > moment:
+        patched: '2016-10-19T15:22:35.710Z'
+    - hapi > catbox > joi > moment:
+        patched: '2016-10-19T15:22:35.710Z'
+    - hapi > joi > moment:
+        patched: '2016-10-19T15:22:35.710Z'
+    - hapi > heavy > joi > moment:
+        patched: '2016-10-19T15:22:35.710Z'
+  'npm:request:20160119':
+    - azure-mgmt-storage > azure-common > request:
+        patched: '2016-10-19T15:22:35.710Z'
+  'npm:tough-cookie:20160722':
+    - npm > node-gyp > request > tough-cookie:
+        patched: '2016-10-19T15:22:35.710Z'
+    - npm > request > tough-cookie:
+        patched: '2016-10-19T15:22:35.710Z'
+    - npm > npm-registry-client > request > tough-cookie:
+        patched: '2016-10-19T15:22:35.710Z'
+  'npm:ws:20160104':
+    - red > ws:
+        patched: '2016-10-19T15:22:35.710Z'
